@@ -83,7 +83,8 @@ option = {
 
 ![Alt text](images/5-2.png)
 
-上面的图只能拖动 dataZoom 组件导致窗口变化。如果想在坐标系内进行拖动，以及用滚轮（或移动触屏上的两指滑动）进行缩放，那么要再加上一个 inside 型的 dataZoom组件。直接在上面的 option.dataZoom 中增加即可：
+上面的图只能拖动 dataZoom 组件导致窗口变化。如果想在坐标系内进行拖动，以及用滚轮（或移动触屏上的两指滑动）进行缩放，那么要再加上一个 inside 型的 dataZoom组件。
+直接在上面的 option.dataZoom 中增加即可：
 
 option = {
     ...,
